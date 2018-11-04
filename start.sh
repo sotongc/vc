@@ -1,3 +1,3 @@
 #!/bin/bash
 
-webpack-dev-server --config ./webpack/webpack.config.dev.js --host localhost
+./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config ./webpack/webpack.config.dev.js --host localhost

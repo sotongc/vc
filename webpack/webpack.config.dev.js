@@ -4,7 +4,8 @@ var path=require('path');
 module.exports={
 	mode:"development",
 	entry:{
-		"vc":path.resolve(__dirname,"../src/js/index.js")
+		"vc":path.resolve(__dirname,"../src/js/index.js"),
+		"projects":path.resolve(__dirname,"../src/js/projects.js")
 	},
 	output:{
 		path:path.resolve(__dirname,"../dist"),
@@ -25,6 +26,10 @@ module.exports={
 					{loader:'style-loader'},
 					{loader:'css-loader',options:{sourceMap:true}}
 				]
+			},
+			{
+				test:/\.(png|jpeg|gif)$/,
+				loader:'url-loader'
 			}
 		]
 	},

@@ -1,0 +1,35 @@
+.about{}
+
+.about .container{
+	overflow:hidden;
+	margin-left:260px;
+}
+
+.about .portrait {
+	width:400px;
+	height:500px;
+	float:left;
+}
+
+.about .portrait img{
+	width:100%;
+	object-fit:contain;
+}
+
+.about .des{
+	width:300px;
+	font-size:14px;
+	margin-left:80px;
+	margin-top:40px;
+	margin-right:80px;
+	color:#454545;
+	float:left;
+}
+
+.about .des p{
+	line-height:15px;
+}
+
+.about .des p:nth-child(1){
+	margin-bottom:25px;
+}

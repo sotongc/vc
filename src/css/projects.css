@@ -1,0 +1,51 @@
+@charset "utf8";
+
+.projects{}
+
+.projects .container{
+	overflow:hidden;
+}
+
+.projects .projects-list {
+	margin-left:210px;
+}
+
+.projects-list .project{
+	overflow:hidden;
+	margin-top:60px;
+}
+
+.project .pic, .project .info{
+	float:left;
+}
+
+.project .pic{
+	margin-right:10px;
+	object-fit:contain;
+	width:150px;
+	height:150px;
+}
+
+.project .pic img{
+	width:100%;
+	height:100%;
+}
+
+.project .info p{
+	margin-left:40px;
+	padding:0;
+	line-height:10px;
+	font-family:"Times";
+}
+
+.project .title {
+	font-size:20px;
+}
+
+.project .date {
+	font-size:14px;
+}
+
+.project .des {
+	font-size:14px;
+}

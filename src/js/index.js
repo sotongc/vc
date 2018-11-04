@@ -1,3 +1,8 @@
 import "../css/main.css";
+import "../css/about.css";
 
-console.log(111)
+// data here
+import projects_data from "./data/projects.js";
+
+
+console.log(projects_data);
