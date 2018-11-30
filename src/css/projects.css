@@ -7,12 +7,13 @@
 }
 
 .projects .projects-list {
-	margin-left:210px;
+	margin-left:300px;
 }
 
 .projects-list .project{
 	overflow:hidden;
 	margin-top:60px;
+	margin-bottom:60px;
 }
 
 .project .pic, .project .info{
@@ -20,32 +21,43 @@
 }
 
 .project .pic{
-	margin-right:10px;
+	margin-right:30px;
+	margin-bottom:30px;
 	object-fit:contain;
-	width:150px;
-	height:150px;
+	width:190px;
+	height:190px;
+	box-shadow:10px 10px 10px #cfcfcf;
 }
 
 .project .pic img{
 	width:100%;
 	height:100%;
+	border:1px solid #CCCCCC;  
 }
 
 .project .info p{
 	margin-left:40px;
+	margin-top: 7px;
 	padding:0;
-	line-height:10px;
-	font-family:"Times";
+	line-height:18px;
 }
 
 .project .title {
-	font-size:20px;
+	font-size:16px;
+	font-weight:bold;
+	font-family:Montserrat,Georgia,sans-serif;
 }
 
 .project .date {
-	font-size:14px;
+	font-size:13px;
+	font-style:oblique;
+	color:gray;
+	font-family:Arial;
 }
 
 .project .des {
 	font-size:14px;
+	width:500px;
+	line-height:2;
+	font-family:Merriweather,sans-serif;
 }

@@ -25,12 +25,12 @@ function temp(data){
 
 	item.innerHTML=[
 		`<div class="pic">`,
-			`<img src="${data.img}"/>`,
+			`<a href="${data.link}"><img src="${data.img}"/></a>`,
 		`</div>`,
 		`<div class="info">`,
-			`<p class="title">${data.name}</p>`,
-			`<p class="date">${data.date}</p>`,
-			`<p class="des">${data.description}</p>`,
+			`<a href="${data.link}"><p class="title">${data.name}</p></a>`,
+			`<a href="${data.link}"><p class="date">${data.date}</p></a>`,
+			`<a href="${data.link}"><p class="des">${data.description}</p></a>`,
 		`</div>`
 	].join('');
 
